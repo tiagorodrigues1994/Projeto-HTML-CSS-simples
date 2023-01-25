@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.box{
+    width: 80%;
+    margin: auto;
+}
+.button{
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none;
+}
+
+.container{
+    background-color:#333;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+    border: 3px solid red;
+}
+.main-aside h2{
+    text-align: center;
+}
+
+.main-aside h2:hover{
+    color: green;
+    cursor: pointer;
+}
+.main-aside ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+.main-aside ul a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.main-aside ul a:hover{
+    color: red;
+}
+
+.main-aside ul a:visited{
+    color: green;
+}
+
+/*formularios*/
+
+.main-form{
+    padding-left: 20px;
+}
+.main-form .form-group{
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input{
+    padding: 10px;
+    width: 100%;
+     
+}
+.main-form .form-group label{
+    display: block;
+}
+.box-relative{
+    position: relative;
+    top: 80px;
+    border: 3px solid #333;
+    height: 500px;
+    border-radius: 7px;
+}
+
+.box-absolute{
+    position: absolute;
+    bottom: 0;
+    border: 3px solid #000;
+}
+
+.box-relative .box-absolute h1{
+    margin: 0;
+}
+
+/* barra de navegação */
+
+#main-navbar{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+
+/* fixed Button */
+.fixed-button{
+    background-color: #333;
+    color: #eee;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+
+
